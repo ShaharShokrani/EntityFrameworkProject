@@ -1,0 +1,12 @@
+C:\Users\ShaharShokrani\Repositories\EntityFrameworkProject\DatabaseFirstDemo\DatabaseFirstDemo\obj\Debug\DatabaseFirstDemo.csproj.CoreCompileInputs.cache
+C:\Users\ShaharShokrani\Repositories\EntityFrameworkProject\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\DatabaseFirstDemo.exe.config
+C:\Users\ShaharShokrani\Repositories\EntityFrameworkProject\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\DatabaseFirstDemo.exe
+C:\Users\ShaharShokrani\Repositories\EntityFrameworkProject\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\DatabaseFirstDemo.pdb
+C:\Users\ShaharShokrani\Repositories\EntityFrameworkProject\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\EntityFramework.dll
+C:\Users\ShaharShokrani\Repositories\EntityFrameworkProject\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ShaharShokrani\Repositories\EntityFrameworkProject\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\EntityFramework.xml
+C:\Users\ShaharShokrani\Repositories\EntityFrameworkProject\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ShaharShokrani\Repositories\EntityFrameworkProject\DatabaseFirstDemo\DatabaseFirstDemo\obj\Debug\DatabaseFirstDemo.csproj.CopyComplete
+C:\Users\ShaharShokrani\Repositories\EntityFrameworkProject\DatabaseFirstDemo\DatabaseFirstDemo\obj\Debug\DatabaseFirstDemo.exe
+C:\Users\ShaharShokrani\Repositories\EntityFrameworkProject\DatabaseFirstDemo\DatabaseFirstDemo\obj\Debug\DatabaseFirstDemo.pdb
+C:\Users\ShaharShokrani\Repositories\EntityFrameworkProject\DatabaseFirstDemo\DatabaseFirstDemo\obj\Debug\DatabaseFirstDemo.csprojAssemblyReference.cache
