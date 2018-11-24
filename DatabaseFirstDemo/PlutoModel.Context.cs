@@ -54,9 +54,14 @@ namespace DatabaseFirstDemo
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("DeleteCourse", courseIDParameter);
         }
     
-        public virtual ObjectResult<GetCourses_Result> GetCourses()
+        public virtual ObjectResult<Course> GetCourses()
         {
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<GetCourses_Result>("GetCourses");
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Course>("GetCourses");
+        }
+    
+        public virtual ObjectResult<Course> GetCourses(MergeOption mergeOption)
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Course>("GetCourses", mergeOption);
         }
     
         public virtual int InsertCourse(Nullable<int> authorID, string title, string description, Nullable<short> price, string levelString, Nullable<byte> level)
