@@ -53,7 +53,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Author.cs" />
-    <Compile Include="Category.cs" />
     <Compile Include="Course.cs" />
     <Compile Include="Migrations\201811251126490_InitialModel.cs" />
     <Compile Include="Migrations\201811251126490_InitialModel.Designer.cs">
@@ -78,6 +77,14 @@
     <Compile Include="Migrations\201811251200296_DeleteDatePublishedFromCoursedTable.cs" />
     <Compile Include="Migrations\201811251200296_DeleteDatePublishedFromCoursedTable.Designer.cs">
       <DependentUpon>201811251200296_DeleteDatePublishedFromCoursedTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811251202259_DeleteCategoryFromCourseTable.cs" />
+    <Compile Include="Migrations\201811251202259_DeleteCategoryFromCourseTable.Designer.cs">
+      <DependentUpon>201811251202259_DeleteCategoryFromCourseTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811251203495_DeleteCategoryTable.cs" />
+    <Compile Include="Migrations\201811251203495_DeleteCategoryTable.Designer.cs">
+      <DependentUpon>201811251203495_DeleteCategoryTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PlutoContext.cs" />
@@ -109,6 +116,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811251200296_DeleteDatePublishedFromCoursedTable.resx">
       <DependentUpon>201811251200296_DeleteDatePublishedFromCoursedTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811251202259_DeleteCategoryFromCourseTable.resx">
+      <DependentUpon>201811251202259_DeleteCategoryFromCourseTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811251203495_DeleteCategoryTable.resx">
+      <DependentUpon>201811251203495_DeleteCategoryTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

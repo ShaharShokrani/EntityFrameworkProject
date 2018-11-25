@@ -21,8 +21,6 @@ namespace CodeFirstExistingDbDemo
 
         public string Description { get; set; }
 
-        public Category Category { get; set; }
-
         public int Level { get; set; }
 
         public short FullPrice { get; set; }
