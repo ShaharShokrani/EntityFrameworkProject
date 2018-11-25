@@ -5,6 +5,7 @@ namespace CodeFirstExistingDbDemo.Migrations
     
     public partial class InitialModel : DbMigration
     {
+        //add-migration InitialMode - IgnoreChanges -Force
         public override void Up()
         {
         }
