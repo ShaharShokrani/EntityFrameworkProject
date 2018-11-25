@@ -67,6 +67,7 @@
     <Compile Include="funcGetAuthorCourses_Result.cs">
       <DependentUpon>PlutoModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PlutoModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
