@@ -7,11 +7,23 @@ namespace CodeFirstExistingDbDemo.Migrations
     {
         public override void Up()
         {
+            CreateTable(
+                "dbo._Categories",
+                c => new
+                {
+                    Id = c.Int(nullable: false, identity: true),
+                    Name = c.String(),
+                })
+                .PrimaryKey(t => t.Id);
             DropTable("dbo.Categories");
+
+            Sql("INSERT INTO _Categories (Name) SELECT Name FROM Categories");
         }
         
         public override void Down()
         {
+            Sql("INSERT INTO Categories (Name) SELECT Name FROM _Categories");
+
             CreateTable(
                 "dbo.Categories",
                 c => new
@@ -20,7 +32,7 @@ namespace CodeFirstExistingDbDemo.Migrations
                         Name = c.String(),
                     })
                 .PrimaryKey(t => t.Id);
-            
+            DropTable("dbo._Categories");
         }
     }
 }
