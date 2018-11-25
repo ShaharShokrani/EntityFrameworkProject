@@ -10,6 +10,7 @@ namespace CodeFirstExistingDbDemo.Migrations
             AddColumn("dbo.Courses", "Category_Id", c => c.Int());
             CreateIndex("dbo.Courses", "Category_Id");
             AddForeignKey("dbo.Courses", "Category_Id", "dbo.Categories", "Id");
+            Sql("UPDATE Courses SET Category_Id = 1");
         }
         
         public override void Down()
