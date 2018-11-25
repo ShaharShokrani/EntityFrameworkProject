@@ -23,6 +23,8 @@ namespace CodeFirstExistingDbDemo
 
         public Category Category { get; set; }
 
+        public DateTime? DatePublished { get; set; }
+
         public int Level { get; set; }
 
         public short FullPrice { get; set; }
